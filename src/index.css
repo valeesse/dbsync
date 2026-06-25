@@ -1,0 +1,75 @@
+:root {
+  color: #eff3ff;
+  background:
+    radial-gradient(circle at top left, rgba(36, 163, 139, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(244, 145, 44, 0.18), transparent 24%),
+    linear-gradient(180deg, #09111f 0%, #0e182b 100%);
+  font-family:
+    'IBM Plex Sans', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --text: #eff3ff;
+  --text-soft: #9fb0cc;
+  --muted: #6c7b96;
+  --panel-shadow: 0 24px 80px rgba(2, 8, 20, 0.34);
+  --amber: #f4912c;
+  --teal: #24a38b;
+  --crimson: #cb4747;
+  --navy: #3a63ff;
+  --display:
+    'Space Grotesk', 'Aptos Display', 'Segoe UI Variable Display', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text);
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+  margin-bottom: 14px;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+a {
+  color: inherit;
+}
